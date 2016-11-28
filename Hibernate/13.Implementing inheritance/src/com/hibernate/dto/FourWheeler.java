@@ -1,0 +1,18 @@
+package com.hibernate.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class FourWheeler extends Vehicle {
+
+	private String StreeingWheel;
+
+	public String getStreeingWheel() {
+		return StreeingWheel;
+	}
+
+	public void setStreeingWheel(String streeingWheel) {
+		StreeingWheel = streeingWheel;
+	}
+	
+}
