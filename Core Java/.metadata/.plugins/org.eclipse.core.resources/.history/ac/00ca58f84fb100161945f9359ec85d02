@@ -1,0 +1,16 @@
+import java.net.*;
+public class connection {
+	public static void main(String args[])
+	{
+		try{
+			URL url=new URL("http://www.google.com/");
+			URLConnection con=url.openConnection();
+			
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}
+	

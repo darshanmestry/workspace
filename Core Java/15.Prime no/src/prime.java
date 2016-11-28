@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class prime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Scanner scan=new Scanner(System.in);
+          boolean flag=false;
+          int no=scan.nextInt();
+          
+          for(int i=2;i<=(no/2);i++)
+          {
+        	  if(no%i==0)
+        	  {
+        		  flag=true;
+        	  }
+          }
+          if(!flag)
+        	  System.out.println("No is prime "+no);
+          else {
+			System.out.println("No is not prime "+no);
+		}
+  
+	}
+
+}

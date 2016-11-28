@@ -1,0 +1,42 @@
+/*
+ 
+* 
+**
+***
+****
+*****
+
+0
+01
+012
+0123
+01234
+
+0
+11
+222
+3333
+44444
+
+
+ */
+public class starPattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=0;i<5;i++)
+		{
+			for(int k=4;k<=4-i;k++)
+			{
+				 System.out.print(" ");
+			}
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print("*");
+			}	
+			System.out.println("");
+		}
+
+	}
+
+}

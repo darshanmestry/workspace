@@ -1,0 +1,33 @@
+import java.util.*;
+public class checkParan {
+	
+	public static void main(String args[])
+	{
+		Scanner scan=new Scanner(System.in);
+		Stack<Character> st=new Stack<Character>();
+		System.out.println("Enter input");
+		String str=scan.nextLine();
+	    int len=str.length();
+	    
+	    
+	    for(int i=0;i<len;i++)
+	    {
+	    	char ch=str.charAt(i);
+	    	if(ch=='(')
+	    		st.push(ch);
+	    	else if(ch==')')
+	    	{
+	    		st.pop();
+	    	}
+	    		
+	    }
+	    
+	    if(st.isEmpty())
+	    	System.out.println("balanced");
+	    else
+	    	System.out.println("not balanced");
+	    
+	    scan.close();
+	}
+
+}

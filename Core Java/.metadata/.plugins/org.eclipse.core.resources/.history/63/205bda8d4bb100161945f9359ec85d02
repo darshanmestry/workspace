@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class prime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Scanner scan=new Scanner(System.in);
+          int no=scan.nextInt();
+          
+          for(int i=2;i<=(no/2);i++)
+          {
+        	  if(no%i==0)
+        	  {
+        		  
+        	  }
+          }
+	}
+
+}
